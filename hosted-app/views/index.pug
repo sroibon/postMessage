@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= maintitle
+  p Welcome to #{title}
+  <br />
+  <br />
+  <br />
+  label type in your message:
+  <br />
+  <br />
+  input(
+    type='text'
+    name='message'
+    class='messageBox'
+  )
+  <br />
+  <br />
+  button(class='messageButton') send message
