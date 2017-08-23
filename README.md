@@ -1,5 +1,5 @@
 # postMessage
-postMessage() small example with React app on the parent window
+postMessage() small example of crossorigin communication with React
 
 # To run applications
 Please run `npm i` on each project to install dependencies.
